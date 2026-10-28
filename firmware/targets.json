@@ -1,0 +1,7 @@
+{
+  "WARDRIVE_HUB_C5_CYD_Core": "firmware/cyd-core/esp32-c5/WARDRIVE_HUB_C5_CYD_Core",
+  "WARDRIVE_HUB_C5_Node_Bluetooth_Only": "firmware/nodes/esp32-c5/ble-only/WARDRIVE_HUB_C5_Node_Bluetooth_Only",
+  "WARDRIVE_HUB_C5_Node_Wi_Fi_and_Bluetooth": "firmware/nodes/esp32-c5/wifi-ble/WARDRIVE_HUB_C5_Node_Wi_Fi_and_Bluetooth",
+  "WARDRIVE_HUB_C5_Mini": "firmware/mini/esp32-c5/WARDRIVE_HUB_C5_Mini",
+  "WARDRIVE_HUB_C5_T_Dongle_Node": "firmware/nodes/esp32-c5/t-dongle/WARDRIVE_HUB_C5_T_Dongle_Node"
+}

@@ -1,0 +1,140 @@
+{
+  "date": "2026-10-27",
+  "arduino_cli": "1.5.1",
+  "esp32_core": "3.3.12",
+  "gcc": "14.2.0",
+  "builds": [
+    {
+      "target": "WARDRIVE_HUB_C5_CYD_Core",
+      "version": "1.7.0",
+      "fqbn": "esp32:esp32:esp32c5:FlashSize=16M,PSRAM=enabled",
+      "compile_status": "PASS",
+      "hardware_tested": false,
+      "diagnostic_path_redaction": true,
+      "application_file_bytes": 1914432,
+      "application_sha256": "6e116feefa61a737a7f7cfcf55fc0c664a3daab8ad05fa9b6877c44e448e83c0",
+      "summary": [
+        "Sketch uses 1914307 bytes (60%) of program storage space. Maximum is 3145728 bytes.",
+        "Global variables use 106108 bytes (32%) of dynamic memory, leaving 221572 bytes for local variables. Maximum is 327680 bytes."
+      ],
+      "partition_binary_matches_csv": true,
+      "build_directory": "work/clean-builds/WARDRIVE_HUB_C5_CYD_Core",
+      "offline_image_verification": {
+        "target": "WARDRIVE_HUB_C5_CYD_Core",
+        "application_sha256": "6e116feefa61a737a7f7cfcf55fc0c664a3daab8ad05fa9b6877c44e448e83c0",
+        "tool": "esptool 5.3.1 image-info (offline)",
+        "chip": "ESP32-C5",
+        "chip_id": 23,
+        "flash_size": "16MB",
+        "checksum_valid": true,
+        "validation_hash_valid": true,
+        "hardware_tested": false
+      }
+    },
+    {
+      "target": "WARDRIVE_HUB_C5_Node_Wi_Fi_and_Bluetooth",
+      "version": "1.7.0",
+      "fqbn": "esp32:esp32:XIAO_ESP32C5",
+      "compile_status": "PASS",
+      "hardware_tested": false,
+      "diagnostic_path_redaction": true,
+      "application_file_bytes": 1385840,
+      "application_sha256": "1a998aadacea233ecf5b70bb558b6a4cdbc54fc38bd777592071c2d575e2d35c",
+      "summary": [
+        "Sketch uses 1385731 bytes (41%) of program storage space. Maximum is 3342336 bytes.",
+        "Global variables use 72044 bytes (21%) of dynamic memory, leaving 255636 bytes for local variables. Maximum is 327680 bytes."
+      ],
+      "build_directory": "work/clean-builds/WARDRIVE_HUB_C5_Node_Wi_Fi_and_Bluetooth",
+      "offline_image_verification": {
+        "target": "WARDRIVE_HUB_C5_Node_Wi_Fi_and_Bluetooth",
+        "application_sha256": "1a998aadacea233ecf5b70bb558b6a4cdbc54fc38bd777592071c2d575e2d35c",
+        "tool": "esptool 5.3.1 image-info (offline)",
+        "chip": "ESP32-C5",
+        "chip_id": 23,
+        "flash_size": "8MB",
+        "checksum_valid": true,
+        "validation_hash_valid": true,
+        "hardware_tested": false
+      }
+    },
+    {
+      "target": "WARDRIVE_HUB_C5_Node_Bluetooth_Only",
+      "version": "1.7.0",
+      "fqbn": "esp32:esp32:XIAO_ESP32C5",
+      "compile_status": "PASS",
+      "hardware_tested": false,
+      "diagnostic_path_redaction": true,
+      "application_file_bytes": 1381344,
+      "application_sha256": "c763b81342c9878d1444a44dc418fb6edd1f8207ee232c9096b794bda6f777e4",
+      "summary": [
+        "Sketch uses 1381235 bytes (41%) of program storage space. Maximum is 3342336 bytes.",
+        "Global variables use 69876 bytes (21%) of dynamic memory, leaving 257804 bytes for local variables. Maximum is 327680 bytes."
+      ],
+      "build_directory": "work/clean-builds/WARDRIVE_HUB_C5_Node_Bluetooth_Only",
+      "offline_image_verification": {
+        "target": "WARDRIVE_HUB_C5_Node_Bluetooth_Only",
+        "application_sha256": "c763b81342c9878d1444a44dc418fb6edd1f8207ee232c9096b794bda6f777e4",
+        "tool": "esptool 5.3.1 image-info (offline)",
+        "chip": "ESP32-C5",
+        "chip_id": 23,
+        "flash_size": "8MB",
+        "checksum_valid": true,
+        "validation_hash_valid": true,
+        "hardware_tested": false
+      }
+    },
+    {
+      "target": "WARDRIVE_HUB_C5_Mini",
+      "version": "1.7.0",
+      "fqbn": "esp32:esp32:XIAO_ESP32C5",
+      "compile_status": "PASS",
+      "hardware_tested": false,
+      "diagnostic_path_redaction": true,
+      "application_file_bytes": 1690016,
+      "application_sha256": "748971ba6eb4c35f72704eb7547712acde8cbcb4144d5dba1d5f2b77bf9f2ee5",
+      "summary": [
+        "Sketch uses 1689921 bytes (50%) of program storage space. Maximum is 3342336 bytes.",
+        "Global variables use 92044 bytes (28%) of dynamic memory, leaving 235636 bytes for local variables. Maximum is 327680 bytes."
+      ],
+      "build_directory": "work/clean-builds/WARDRIVE_HUB_C5_Mini",
+      "offline_image_verification": {
+        "target": "WARDRIVE_HUB_C5_Mini",
+        "application_sha256": "748971ba6eb4c35f72704eb7547712acde8cbcb4144d5dba1d5f2b77bf9f2ee5",
+        "tool": "esptool 5.3.1 image-info (offline)",
+        "chip": "ESP32-C5",
+        "chip_id": 23,
+        "flash_size": "8MB",
+        "checksum_valid": true,
+        "validation_hash_valid": true,
+        "hardware_tested": false
+      }
+    },
+    {
+      "target": "WARDRIVE_HUB_C5_T_Dongle_Node",
+      "version": "1.7.0",
+      "fqbn": "esp32:esp32:esp32c5:FlashSize=4M,PSRAM=disabled",
+      "compile_status": "PASS",
+      "hardware_tested": false,
+      "diagnostic_path_redaction": true,
+      "application_file_bytes": 1473824,
+      "application_sha256": "f4c74eb03c8abc6784f431fdbdfa2d20672235624a991e97fd85e3648295e7e4",
+      "summary": [
+        "Sketch uses 1473676 bytes (46%) of program storage space. Maximum is 3145728 bytes.",
+        "Global variables use 76976 bytes (23%) of dynamic memory, leaving 250704 bytes for local variables. Maximum is 327680 bytes."
+      ],
+      "partition_binary_matches_csv": true,
+      "build_directory": "work/clean-builds/WARDRIVE_HUB_C5_T_Dongle_Node",
+      "offline_image_verification": {
+        "target": "WARDRIVE_HUB_C5_T_Dongle_Node",
+        "application_sha256": "f4c74eb03c8abc6784f431fdbdfa2d20672235624a991e97fd85e3648295e7e4",
+        "tool": "esptool 5.3.1 image-info (offline)",
+        "chip": "ESP32-C5",
+        "chip_id": 23,
+        "flash_size": "4MB",
+        "checksum_valid": true,
+        "validation_hash_valid": true,
+        "hardware_tested": false
+      }
+    }
+  ]
+}

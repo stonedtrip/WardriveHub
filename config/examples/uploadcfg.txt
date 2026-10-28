@@ -1,0 +1,7 @@
+WIFI_SSID=
+WIFI_PASSWORD=
+WIGLE_API_KEY=
+WDGWARS_API_KEY=
+SIGNAL_FRONTIER_API_KEY=
+# Optional: change only if your Signal Frontier deployment has another HTTPS hostname:
+# SIGNAL_FRONTIER_HOST=signalfrontier.org

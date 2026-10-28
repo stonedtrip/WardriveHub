@@ -1,0 +1,1 @@
+Build metadata: ../firmware/targets.json. Cross-platform build utility: build.py. Historical map-making and flasher tools were discovered but are withheld until their data, dependencies and redistribution terms are reviewed.

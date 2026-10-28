@@ -1,0 +1,29 @@
+# Local credentials and recordings
+**/uploadcfg*.txt
+!config/examples/uploadcfg.txt
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.[cC][sS][vV]
+!**/partitions.csv
+**/Uploaded CSVs/
+**/upload_history*
+state/
+*.log
+# Local compiler output and packages
+.validation-build/
+build/
+dist/
+*.bin
+*.elf
+*.map
+*.zip
+.arduinoIDE/
+.vscode/
+__pycache__/
+.build-tests/
+.DS_Store
+Thumbs.db

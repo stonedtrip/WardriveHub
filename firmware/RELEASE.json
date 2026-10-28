@@ -1,0 +1,35 @@
+{
+  "version": "1.7.0",
+  "firmwares": [
+    {
+      "sketch": "WARDRIVE_HUB_C5_CYD_Core",
+      "version": "1.7.0",
+      "previous_source_sha256": "598eaceac3fa7f6c6b11c4025aa183b7521ccfa375e6b52315400b28145ce4f9",
+      "source_sha256": "30fb890dbd70dd6ecc92333b2bfd399593a72d1a3ab11b60ee4696084432e093"
+    },
+    {
+      "sketch": "WARDRIVE_HUB_C5_Node_Bluetooth_Only",
+      "version": "1.7.0",
+      "previous_source_sha256": "7c5372e69f66f898738c3d965b6d50e7173b23578356fbd619ee8d31d8e7addc",
+      "source_sha256": "a92f666af311ca6b7fcdb51c05e70424e1f27a95c8e4c0995239fc3cd2c55632"
+    },
+    {
+      "sketch": "WARDRIVE_HUB_C5_Node_Wi_Fi_and_Bluetooth",
+      "version": "1.7.0",
+      "previous_source_sha256": "ea00ce4252b64898498381903b1d3413cf468657978b6371baa2cb2dc4ff2c3f",
+      "source_sha256": "2967e8498082e57be4b445284d0435e111745ee01fd873934d94ffca98606ad8"
+    },
+    {
+      "sketch": "WARDRIVE_HUB_C5_Mini",
+      "version": "1.7.0",
+      "previous_source_sha256": "4bb49e08d9b37a24750b45a2c512d38ae4bdf6aae78f322ed9f69c44486de0d7",
+      "source_sha256": "badf89ea69444ed190cf82a102c59094bd3b6e466fa508d0519b2dd912c62a39"
+    },
+    {
+      "sketch": "WARDRIVE_HUB_C5_T_Dongle_Node",
+      "version": "1.7.0",
+      "previous_source_sha256": "b8a339a5b721d70acab973de69f963638605c7d12ec5408dfc7fcd1770cc4909",
+      "source_sha256": "06f6e26fa5bb17018c821f993e06d73bee5738f2769e3b27387735de61955549"
+    }
+  ]
+}

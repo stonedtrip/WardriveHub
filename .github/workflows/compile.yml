@@ -1,0 +1,30 @@
+name: Compile firmware (manual verification)
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  compile:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        target:
+          - WARDRIVE_HUB_C5_CYD_Core
+          - WARDRIVE_HUB_C5_Node_Wi_Fi_and_Bluetooth
+          - WARDRIVE_HUB_C5_Node_Bluetooth_Only
+          - WARDRIVE_HUB_C5_Mini
+          - WARDRIVE_HUB_C5_T_Dongle_Node
+    steps:
+      - uses: actions/checkout@v4
+      - uses: arduino/setup-arduino-cli@v2
+        with:
+          version: 1.5.1
+      - name: Install pinned core and libraries
+        run: |
+          arduino-cli core update-index --additional-urls https://espressif.github.io/arduino-esp32/package_esp32_index.json
+          arduino-cli core install esp32:esp32@3.3.12 --additional-urls https://espressif.github.io/arduino-esp32/package_esp32_index.json
+          arduino-cli lib install "NimBLE-Arduino@2.5.2" "TinyGPSPlus@1.0.3" "Adafruit GFX Library@1.13.0" "Adafruit BusIO@1.17.4" "Adafruit ST7735 and ST7789 Library@1.12.0" "Adafruit SSD1306@2.5.17" "XPT2046_Touchscreen@1.4.0" "LovyanGFX@1.2.35"
+      - name: Compile only
+        run: python3 utilities/build.py --target "${{ matrix.target }}"
+      # No upload-artifact/release step: compile output is not a stable release.
